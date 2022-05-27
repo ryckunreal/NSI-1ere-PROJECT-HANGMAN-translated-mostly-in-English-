@@ -1,0 +1,102 @@
+|—————————————————————————————————————————————————————————————————————————————————————————————————————————|
+|       ______  _____  _____  _   _ ___  ___ _____  _   _  _____  ___  _____  _____  _____  _   _         |
+|       |  _  \|  _  |/  __ \| | | ||  \/  ||  ___|| \ | ||_   _|/ _ \|_   _||_   _||  _  || \ | |        |
+|       | | | || | | || /  \/| | | || .  . || |__  |  \| |  | | / /_\ \ | |    | |  | | | ||  \| |        |
+|       | | | || | | || |    | | | || |\/| ||  __| | . ` |  | | |  _  | | |    | |  | | | || . ` |        |
+|       | |/ / \ \_/ /| \__/\| |_| || |  | || |___ | |\  |  | | | | | | | |   _| |_ \ \_/ /| |\  |        |
+|       |___/   \___/  \____/ \___/ \_|  |_/\____/ \_| \_/  \_/ \_| |_/ \_/   \___/  \___/ \_| \_/        |
+|                                                                                                         |
+|—————————————————————————————————————————————————————————————————————————————————————————————————————————|
+| ______          _      _      ______              _           _   _  _____ _____     __                 |
+| | ___ \        (_)    | |     | ___ \            | |         | \ | |/  ___|_   _|   /  |                |
+| | |_/ / __ ___  _  ___| |_    | |_/ /__ _ __   __| |_   _    |  \| |\ `--.  | |     `| |  ___ _ __ ___  |
+| |  __/ '__/ _ \| |/ _ \ __|   |  __/ _ \ '_ \ / _` | | | |   | . ` | `--. \ | |      | | / _ \ '__/ _ \ |
+| | |  | | | (_) | |  __/ |_    | | |  __/ | | | (_| | |_| |   | |\  |/\__/ /_| |_    _| ||  __/ | |  __/ |
+| \_|  |_|  \___/| |\___|\__|   \_|  \___|_| |_|\__,_|\__,_|   \_| \_/\____/ \___/    \___/\___|_|  \___| |
+|               _/ |                                                                                      |
+|              |__/                                                                                       |
+|—————————————————————————————————————————————————————————————————————————————————————————————————————————|
+|                                                                                                         |
+|                                                                                                         |
+|   ___      __      _                      _                                                             |
+|  / __|_ _ /_/ __ _| |_ ___ _  _ _ _ ___  (_)                                                            |
+| | (__| '_/ -_) _` |  _/ -_) || | '_(_-<   _                                                             |
+|  \___|_| \___\__,_|\__\___|\_,_|_| /__/  (_)                                                            |
+|                                                                                                         |
+|        _  _           _      ___                                                                        |
+|  ___  | \| |___  __ _| |_   | _ \                                                                       |
+| |___| | .` / _ \/ _` | ' \  |   /_                                                                      |
+|       |_|\_\___/\__,_|_||_| |_|_(_)                                                                     |
+|         ___            _ _ _        ___                                                                 |
+|  ___   / __|__ _ _ __ (_) | |___   / _ \                                                                |
+| |___| | (__/ _` | '  \| | | / -_) | (_) |                                                               |
+|        \___\__,_|_|_|_|_|_|_\___|  \___(_)                                                              |
+|       ___              _ _          ___                                                                 |
+|  ___ / __|__ _ _ _  __| (_)__ ___  |   \                                                                |
+| |___| (__/ _` | ' \/ _` | / _/ -_) | |) |                                                               |
+|      \___\__,_|_||_\__,_|_\__\___| |___(_)                                                              |
+|                                                                                                         |
+|                                                                                                         |
+|—————————————————————————————————————————————————————————————————————————————————————————————————————————|
+
+
+❏ Different stages of the project:
+
+1 ● Create a working hangman game -> Python console only 
+    ➤ Assigned to:  Camille & Candice 
+                   ● Replit links to access the hangmen (playable in the console)
+                        ➤ [HIDDEN LINK] (Camille O.)
+                        ➤ [HIDDEN LINK] (Candice D.)
+
+2 ● Create a new program using PyGame to create a GUI (reinterpretation of the code (from step 1): modifications (additions, deletions, etc...) -> but same principle)
+    ➤ Assigned to:  Noah (with help from Camille & Candice on some points: for example -> Camille: difficulty, etc...)
+                   ● Replit links to access the hangman game (playable with graphical interface)
+                        ➤ [HIDDEN LINK] (Noah R.)
+                        ➤ [SAVE/BACKUP -> Camille's Replit account + Noah R. hard drive]
+
+3 ● Bug fixes and finalization of the project (documentation, comments etc...)
+
+4 ● Oral presentation of the project (in front of the whole class)
+    ➤ Assigned to: Noah & Camille (Candice -> absent [First Exam])
+
+5 ● Posting the folder to OneDrive.
+
+
+❏ Game:
+
+● Classic Hangman Game:
+  ➤ Find the randomly chosen hidden word by trying letters (press keys on keyboard)
+  ➤ The length of the word is visible (white lines)
+  ➤ If the letter entered: 
+    ➤ is correct: the letter replaces the corresponding stroke (in its place in the word)
+    ➤ is wrong: the hangman 'appears' as you go along (with each mistake)
+
+● A welcome menu:
+  ➤ Better for the player (pleasantness of the service offered +++).
+
+● A difficulty management:
+  ➤ Automated: the player does not choose a difficulty:
+    ➤ The difficulty adapts according to the length of the word:
+      ➤ That is, the difficulty will be the same regardless of the total number of letters in the word:
+        ➤ The max number of errors is less for a small word, and greater for a longer word
+
+● Single player game:
+  ➤ 1 single player 
+
+● A [friendly, welcoming, and functional] graphical interface:
+  ➤ A home menu:
+    ➤ Better for the player (pleasantness of the service offered +++)
+  ➤ A themed game:
+    ➤ Western (canyon/desert, sheriff, etc...)
+  ➤ Characters/items:
+    ➤ The sheriff (explains the purpose of the game + reaction when the player wins/loses)
+    ➤ The hanged man (who reveals himself as he goes along, or not [if the player is STRONG])
+    ➤ The bag of coins (when the player wins):
+      ➤ Sense of satisfaction for the player
+    ➤ The coffin (when the player loses):
+      ➤ Sense of frustration for the player (thus: desire to play again...)
+    ➤ An arrow that returns to the home menu (at the end of the game):
+      ➤ Better for the player (optimal game functionality +++) 
+    ➤ Displays the letters already used
+      ➤ Better for the player (pleasantness of the offered service +++)
+
